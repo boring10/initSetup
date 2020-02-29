@@ -7,6 +7,9 @@ rm -v .dropbox-dist.tar.gz
 ~/.dropbox-dist/dropboxd &>/dev/null &
 disown
 
+sleep 5s
+pkill firefox
+
 # Download and install Joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
@@ -51,6 +54,7 @@ files+=(".gnupg/gpg.conf")
 [ ! -d $dotfilesBkp/.gnupg ] && mkdir -pv $dotfilesBkp/.gnupg
 
 [ ! -d $HOME/.config/nvim ] && mkdir -pv $HOME/.config/nvim
+[ ! -d $HOME/.gnupg ] && mkdir -pv $HOME/.gnupg
 
 if [ ! -d $HOME/.vim ] || [ ! -d $HOME/.vim/autoload ]
 then
@@ -64,5 +68,5 @@ done
 
 for file in "${files[@]}"
 do
-  mv -pv $dotfiles/$file $HOME/$file
+  mv -v $dotfiles/$file $HOME/$file
 done
