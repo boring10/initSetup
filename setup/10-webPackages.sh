@@ -7,7 +7,7 @@ rm -v .dropbox-dist.tar.gz
 ~/.dropbox-dist/dropboxd &>/dev/null &
 disown
 
-sleep 5s
+sleep 30s
 pkill firefox
 
 # Download and install Joplin
@@ -29,7 +29,7 @@ echo "Ensuring that all packages are up-to-date"
 sudo apt-get update
 sudo apt-get upgrade -y
 
-git clone https://gitlab.com/boring10/dotfiles ~/
+git clone https://gitlab.com/boring10/dotfiles ~/dotfiles
 
 dotfiles=$HOME/dotfiles
 dotfilesBkp=$HOME/dotfiles.bkp
