@@ -34,4 +34,4 @@ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key a
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
 
 # Repository - FreeCAD
-sudo add-apt-repository ppa:freecad-mainainers/freecad-stable -y
+sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y
