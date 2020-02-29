@@ -32,3 +32,6 @@ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
+
+# Repository - FreeCAD
+sudo add-apt-repository ppa:freecad-mainainers/freecad-stable -y

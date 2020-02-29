@@ -10,7 +10,7 @@ files+=("12-oh-my-tmux.sh")
 files+=("15-npmPackages.sh")
 files+=("20-fonts.sh")
 files+=("25-gsettings.sh")
-files+=("30-dotfiles.sh")
+# files+=("30-dotfiles.sh")
 
 for file in ${files[@]}
 do
