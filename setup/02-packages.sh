@@ -7,6 +7,8 @@ sudo apt update
 aptPackages=()
 aptPackages+=('clamav clamav-daemon')
 aptPackages+=('ctags')
+aptPackages+=('exfat-fuse') # For handling exFAT partitions
+aptPackages+=('exfat-utils') # For handling exFAT partitions
 aptPackages+=('fonts-firacode')
 aptPackages+=('fonts-powerline')
 aptPackages+=('freecad')
