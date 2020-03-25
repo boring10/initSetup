@@ -20,6 +20,12 @@ sudo add-apt-repository ppa:gencfsm -y
 # Repository - Node.js
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 
+# Open Broadcaster Software Studio (OBS Studio)
+sudo add-apt-repository ppa:obsproject/obs-studio
+
+# Peek
+sudo add-apt-repository ppa:peek-developers/stable
+
 # Repository - Yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
