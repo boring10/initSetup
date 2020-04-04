@@ -4,6 +4,7 @@
 snapPackages=()
 snapPackages+=('bitwarden')
 snapPackages+=('deja-dup --classic')
+snapPackages+=('drawio')
 snapPackages+=('chromium')
 snapPackages+=('gimp')
 snapPackages+=('inkscape')
