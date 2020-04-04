@@ -22,7 +22,6 @@ aptPackages+=('libpango1.0-0') # Required for Dropbox installation
 aptPackages+=('mongodb-org')
 aptPackages+=('nautilus-dropbox')
 aptPackages+=('nodejs')
-aptPackages+=('obs-studio')
 aptPackages+=('peek')
 aptPackages+=('powerline')
 aptPackages+=('python3')
