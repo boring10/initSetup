@@ -21,10 +21,10 @@ sudo add-apt-repository ppa:gencfsm -y
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 
 # Open Broadcaster Software Studio (OBS Studio)
-sudo add-apt-repository ppa:obsproject/obs-studio
+sudo add-apt-repository ppa:obsproject/obs-studio -y
 
 # Peek
-sudo add-apt-repository ppa:peek-developers/stable
+sudo add-apt-repository ppa:peek-developers/stable -y
 
 # Repository - Yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
