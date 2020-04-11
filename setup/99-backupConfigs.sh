@@ -3,8 +3,6 @@
 # Get the directory of the script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-cocSettings='.config/nvim/coc-settings.json'
-
 files=()
 files+=('.bash_profile')
 files+=('.bashrc')
@@ -14,9 +12,8 @@ files+=('.tmux.conf.local')
 files+=('.zshrc')
 files+=('.vimrc')
 files+=('.vim/autoload/plug.vim')
-files+=("${cocSettings}")
+files+=("./vim/coc-settings.json")
 files+=('.vim/.vimrc')
-files+=('.config/nvim/init.vim')
 files+=('.config/htop/htoprc')
 
 for file in "${files[@]}"
@@ -36,7 +33,7 @@ do
     rsync -ac $HOME/$file $DIR/../$file
   fi
 
-  if [ ! -f $HOME/.vim/coc-settings.json ] && [ "${file}" == "${cocSettings}" ]
+  if [ ! -f $HOME/.vim/coc-settings.json ]
   then
     echo "$HOME/$file -> $HOME/.vim/$file"
     rsync -ac $HOME/$file $HOME/.vim/
