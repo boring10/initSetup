@@ -4,6 +4,7 @@
 npmModules=()
 npmModules+=('nodemon')
 npmModules+=('clasp')
+npmModules+=('instant-markdown-d')
 npmModules+=('jsdoc')
 npmModules+=('webpack')
 npmModules+=('webpack-dev-server')
