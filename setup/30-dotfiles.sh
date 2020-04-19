@@ -3,6 +3,7 @@
 # Get the directory of the script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+cocSettings=".config/nvim/coc-settings.json"
 dotfilesBkp=$HOME/dotfiles.bkp
 
 files=()
@@ -13,6 +14,7 @@ files+=(".tmux.conf.local")
 files+=(".zshrc")
 files+=(".vimrc")
 files+=(".vim/autoload/plug.vim")
+files+=("${cocSettings}")
 files+=(".vim/coc-settings")
 files+=(".vim/.vimrc")
 files+=(".config/nvim/init.vim")
@@ -20,6 +22,9 @@ files+=(".gnupg/gpg.conf")
 
 [ ! -d $dotfilesBkp ] && mkdir -pv $dotfilesBkp
 [ ! -d $dotfilesBkp/.vim/autoload ] && mkdir -pv $dotfilesBkp/.vim/autoload
+[ ! -d $dotfilesBkp/.config/nvim ] && mkdir -pv $dotfilesBkp/.config/nvim
+
+[ ! -d $HOME/.config/nvim ] && mkdir -pv $HOME/.config/nvim
 
 if [ ! -d $HOME/.vim ] || [ ! -d $HOME/.vim/autoload ]
 then
