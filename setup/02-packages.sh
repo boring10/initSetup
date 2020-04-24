@@ -26,6 +26,7 @@ aptPackages+=('peek')
 aptPackages+=('powerline')
 aptPackages+=('python3')
 aptPackages+=('python3-gpg') # Required for full Dropbox support
+aptPackages+=('python3-pip')
 aptPackages+=('steam-installer')
 aptPackages+=('tmux')
 aptPackages+=('usb-creator-gtk')
