@@ -2,10 +2,11 @@
 
 # Global npm packages
 npmModules=()
-npmModules+=('nodemon')
 npmModules+=('clasp')
 npmModules+=('instant-markdown-d')
 npmModules+=('jsdoc')
+npmModules+=('neovim')
+npmModules+=('nodemon')
 npmModules+=('webpack')
 npmModules+=('webpack-dev-server')
 
