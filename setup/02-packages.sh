@@ -18,6 +18,7 @@ aptPackages+=('gparted')
 aptPackages+=('gthumb')
 aptPackages+=('handbrake libdvdcss2')
 aptPackages+=('htop')
+aptPackages+=('jq') # used for formatting JSON
 aptPackages+=('libpango1.0-0') # Required for Dropbox installation
 aptPackages+=('mongodb-org')
 aptPackages+=('nautilus-dropbox')
