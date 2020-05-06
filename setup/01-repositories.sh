@@ -21,7 +21,7 @@ sudo add-apt-repository ppa:gencfsm -y
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 
 # Open Broadcaster Software Studio (OBS Studio)
-sudo add-apt-repository ppa:obsproject/obs-studio -y
+# sudo add-apt-repository ppa:obsproject/obs-studio -y
 
 # Peek
 sudo add-apt-repository ppa:peek-developers/stable -y
@@ -31,13 +31,13 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
 # Repository - MongoDB
-wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
-echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+# wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+# echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 
 # Repository - VirtualBox
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
+# wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+# wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+# sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
 
 # Repository - FreeCAD
-sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y
+# sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y

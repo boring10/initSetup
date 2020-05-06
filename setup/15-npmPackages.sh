@@ -7,8 +7,8 @@ npmModules+=('instant-markdown-d')
 npmModules+=('jsdoc')
 npmModules+=('neovim')
 npmModules+=('nodemon')
-npmModules+=('webpack')
-npmModules+=('webpack-dev-server')
+# npmModules+=('webpack')
+# npmModules+=('webpack-dev-server')
 
 allModules=''
 for module in "${npmModules[@]}"

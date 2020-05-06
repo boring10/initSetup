@@ -19,13 +19,13 @@ gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
 gsettings set org.gnome.nautilus.icon-view default-zoom-level 'small'
 gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
 gsettings set org.gnome.nautilus.preferences show-hidden-files true
-gsettings set org.gnome.settings-daemon.plugins.media-keys terminal '<Super>t'
-gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
-gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size '38'
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'LEFT'
-gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+# gsettings set org.gnome.settings-daemon.plugins.media-keys terminal '<Super>t'
+# gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
+# gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+# gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size '38'
+# gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+# gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'LEFT'
+# gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 # gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor true
 # gsettings set org.gnome.shell.extensions.dash-to-dock pressure-threshold '25'
 # gsettings set org.gnome.shell.extensions.dash-to-dock show-delay '0.1'
